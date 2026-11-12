@@ -1,8 +1,8 @@
 Name: Obed Antwi Blay Fosu
-CAmpus: Lanarkshire
+Campus: Lanarkshire
 Banner ID: B01815900
 
-This Repo includes the implementation of various cybersecuirty tasks as part of my course work one for programming for Cyber security. Each task will be implemented as a branch on its own.
+This Repository includes the implementation of various cyber secuirty tasks as part of my course work one for programming for Cyber security. Each task will be implemented as a branch on its own.
 #Tasks
 1. Security Tool
 2. Security Event Logger
