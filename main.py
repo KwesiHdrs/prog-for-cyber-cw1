@@ -13,7 +13,7 @@ def main():
         print("4. Generate Strong Password")
         print("5. Exit")
         
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice (or Q to quit): ").strip().lower()
         
         if choice == '1':
             security_event_counter()
@@ -23,7 +23,7 @@ def main():
             login_authentication()
         elif choice == '4':
             print(f"Generated password: {security_tools.generate_strong_password()}")
-        elif choice == '5':
+        elif choice in ('5', 'q'):
             print("Thank you for using the Security Tool!")
             break
         else:
